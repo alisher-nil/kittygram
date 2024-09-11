@@ -1,0 +1,3 @@
+[tool.ruff]
+# Allow imports relative to the "src" and "test" directories.
+src = ["backend", "tests"]
