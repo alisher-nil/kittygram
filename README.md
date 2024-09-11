@@ -3,7 +3,7 @@
 A small practice project to store pictures of cats.
 Practiced CI/CD, Docker and DRF
 ## Build status
-[![Kittygram Workflow](https://github.com/alisher-nil/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/alisher-nil/kittygram_final/actions/workflows/main.yml)
+[![Kittygram Workflow](https://github.com/alisher-nil/kittygram/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/alisher-nil/kittygram/actions/workflows/main.yml)
 ## Differences Between Production and Development
 - Production:
   Use `docker-compose.production.yml` to use images uploaded to docker hub.
