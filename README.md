@@ -1,8 +1,7 @@
 # Kittygram
 ## Description
-A small project to store pictures of cats.
-## Deployed Version
-[Kittygram](https://practicumhwan.ddns.net/)
+A small practice project to store pictures of cats.
+Practiced CI/CD, Docker and DRF
 ## Build status
 [![Kittygram Workflow](https://github.com/alisher-nil/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/alisher-nil/kittygram_final/actions/workflows/main.yml)
 ## Differences Between Production and Development
