@@ -26,11 +26,11 @@ git@github.com:alisher-nil/kittygram_final.git
 cd kittygram_final/
 ```
 - Deploy using docker:
-```
+```bash
 docker compose up -d
 ```
 - Apply migrations and move static files to static volume:
-```
+```bash
 docker compose exec backend python manage.py migrate
 docker compose exec backend python manage.py collectstatic
 docker compose exec backend cp -r /app/collected_static/. /backend_static/static/
@@ -43,7 +43,7 @@ scp /kittygram_final/docker-compose.production.yml <username>@<address>:/kittygr
 scp /kittygram_final/.env <username>@<address>:/kittygram
 ```
 - log in to remote vm using ssh
-```
+```bash
 ssh -i path/to/privatekey <username>@<address>
 ```
 - Install docker and nginx web server
@@ -54,7 +54,7 @@ sudo apt install nginx -y
 sudo systemctl start nginx
 ```
 - Run containers, apply migrations, move static files:
-```
+```bash
 cd kittygram/
 sudo docker compose -f docker-compose.production.yml up -d
 sudo docker compose -f docker-compose.production.yml exec backend python manage.py migrate
@@ -62,7 +62,7 @@ sudo docker compose -f docker-compose.production.yml exec backend python manage.
 sudo docker compose -f docker-compose.production.yml exec backend cp -r /app/collected_static/. /backend_static/static/
 ```
 - adjust the nginx config
-```
+```bash
 sudo nano /etc/nginx/sites-enabled/default
 ```
 
