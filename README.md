@@ -89,11 +89,9 @@ sudo systemctl reload nginx
 - Alisher Nildibaev alisher.nil@gmail.com
 
 ## Technologies Used
+- Python
 - Django
 - Docker
-- Node js
 - Nginx
-- Python
-- Javascript
 - CSS
 - HTML
